@@ -1,7 +1,11 @@
 const http = require('http')
 
+const agent = new http.Agent({
+    keepAlive : true,
+    maxSockets : 1,
+    keepAliveMsecs : 3000
+});
 
-const agent = new http.Agent();
 agent.maxSockets = 1
 
 let sockets = []
@@ -30,9 +34,13 @@ exports.request = (hostname, path, callback) => {
         if(sockets.indexOf(socket) === -1){
             console.log('new socket created')
             socket.push(socket)
+        }
+        if(sockets.indexOf(socket) > 1){
             socket.on('close',()=>{
                 console.log('socket has been closed')
             })
         }
     })
+   
 }
+

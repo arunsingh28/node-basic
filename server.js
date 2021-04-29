@@ -1,12 +1,13 @@
 const index = require('./index')
 const socket = require('./keep-alive')
 
-index.server
 
-const run = () => {
-    socket.request('www.twilio.com','/',(error,res,body)=>{
-        // setTimeout(run,1000)
+
+const run = async () => {
+    await socket.request('work.veihub.in','/register',(error,res,body)=>{
+        index.server
     })
 }
 
-run()
+ run()
+
