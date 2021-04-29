@@ -1,4 +1,4 @@
-> Node Basic
+# Node Basic
 
 1. `npm install`
 1. `npm start`
@@ -10,7 +10,7 @@
 > server file all file will we start from here
 
 
-# Publication
+## Publication
 This site is deploy by **[Heroku](https://heroku.com/nodejs)**
 
 > Deployed site link ⬇
