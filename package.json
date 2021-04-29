@@ -1,10 +1,10 @@
 {
-  "name": "temp",
+  "name": "node-basic",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "node-basic",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
