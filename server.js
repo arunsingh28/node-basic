@@ -1,12 +1,19 @@
 const index = require('./index')
 const socket = require('./keep-alive')
+const Console = require('./console')
 
 
+const run = () => {
 
-const run = async () => {
-    await socket.request('work.veihub.in','/register',(error,res,body)=>{
-        index.server
-    })
+
+    /*  For Keep-Connection Alive */
+
+    // socket.request('work.veihub.in','/register',(error,res,body)=>{
+    //     index.server
+    // })
+
+
+    Console.Console()
 }
 
  run()
