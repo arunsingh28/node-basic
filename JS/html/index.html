@@ -1,32 +1,19 @@
 <html>
 <head>
-    <title>Document</title>
+    <title>Geolocation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body onload="geoLocation()">
     <p>First Enable your location if you want to view your location on map. It's <b>Safe.</b> Disable it after the use.</p>
     <button id="btn">View Your location on map</button>
+    <div id="alert">
+        <div class="layer"></div>
+        <p id="message"></p>
+        <div class="grid">
+            <button onclick="hide()">OK</button>
+            <button onclick="hide()">Cancel</button>
+        </div>
+    </div>
 </body>
-<style>
-    *{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    p{
-        text-align: center;
-        border: 1px dashed rgb(109, 109, 109);
-        padding: 10px;
-    }
-    #btn{
-        padding: 16px 70px;
-        border-radius: 0px;
-        background: #000;
-        color: #fff;
-        border: none;
-        display: block;
-        margin: 0 auto;
-        font-size: 15px;
-        font-weight: 100;
-        cursor: pointer;
-    }
-</style>
 <script src="/JS/geolocation.js"></script>
 </html>
