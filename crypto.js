@@ -11,7 +11,6 @@ exports.crp = () => {
     const hash = crypto.createHash('sha256')
 
 
-
     hash.update('one')
     console.log('Update data one : '+hash.copy().digest('hex'))
 
@@ -30,9 +29,6 @@ exports.crp = () => {
 
     hash.end()
 
-    http.createServer(http.get('/',(req,res)=>{
-        res.send('ok')
-    })).listen(1)
 
     
 }
