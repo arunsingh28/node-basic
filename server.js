@@ -1,9 +1,11 @@
 const index = require('./index')
 const socket = require('./keep-alive')
 const Console = require('./console')
+const crpto = require('./crypto')
 
 
-const run = () => {
+
+const run = async () => {
 
 
     /*  For Keep-Connection Alive */
@@ -12,8 +14,9 @@ const run = () => {
     //     index.server
     // })
 
+    await Console.Console()
+    await console.log(crpto.crp())
 
-    Console.Console()
 }
 
  run()

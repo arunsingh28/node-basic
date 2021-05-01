@@ -1,11 +1,7 @@
-exports.Console = () => {
+exports.Console = (crpto) => {
 
     // creating new type of error
     console.error(new Error('whoops, something happend'))
-
-
-    // console.count()
-
 
     console.clear()
     console.log('server is starting....')
@@ -15,18 +11,7 @@ exports.Console = () => {
             { 'Hostname': 'http://localhost', 'Port': 5000 }
         ])
         console.log('\nhttps://usename-find.herokuapp.com/')
-    }, 2000)
+    }, 10000)
 
-    // console.time('10-elements')
-
-    // making pramid in js
-
-    // for (let i = 0; i < 5; i++) {
-    //     var output = '';
-    //     for (let j = 0; j < 5; j++) output += '';
-    //     for (let k = 0; k <= i; k++) output += '*';
-    //     console.log(output);
-    // }
-
-    console.timeEnd()
+    
 }
