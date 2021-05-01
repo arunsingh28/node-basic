@@ -17,6 +17,8 @@ const run = async () => {
     await Console.Console()
     await console.log(crpto.crp())
 
+    index()
+
 }
 
  run()
