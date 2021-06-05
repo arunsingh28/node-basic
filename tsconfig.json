@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "node-basic",
+        "esModuleInterop": true,
+        "target": "ES6",
+
+    },
+    "include": [
+        "TS/**/*"
+    ]
+}

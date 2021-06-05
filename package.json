@@ -4,13 +4,17 @@
   "description": "node-basic",
   "main": "server.js",
   "scripts": {
-    "dev" : "nodemon server.js",
+    "dev": "nodemon server.js",
+    "server": "nodemon ts/index.js",
     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.7"
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.2"
   }
 }
