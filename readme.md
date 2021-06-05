@@ -11,11 +11,9 @@
 > server file all file are start from here.
 
 
-## Publication
-This site is deploy by **[Heroku](https://heroku.com/nodejs)**
 
 > Deployed site link ⬇
-###### https://usename-find.herokuapp.com
+###### [site link](https://usename-find.herokuapp.com)
 
 
 ## Author
