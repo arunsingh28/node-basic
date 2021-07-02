@@ -4,7 +4,7 @@ const session = require('express-session')
 const app = express()
 
 app.use(session({
-    secret: 'asdasdf',
+    secret: 'secret_key',
 }))
 
 
