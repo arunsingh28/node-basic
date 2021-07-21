@@ -77,4 +77,4 @@ const result = []
 
 // ************opem folder ***************
 
-fs.opendirSync('./Assets')
+// fs.opendirSync('./Assets')
