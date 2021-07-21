@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "node-basic",
+        "module": "nodeBasic",
         "esModuleInterop": true,
         "target": "ES6",
 
